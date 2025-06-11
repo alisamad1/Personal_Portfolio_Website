@@ -51,15 +51,10 @@ To run this project locally, follow these steps:
 
 Navigate through the sections using the top navigation bar. Click on project cards to view details or access their GitHub repositories and live demos.
 
-## Live Demo
-
-You can view the live version of this portfolio here:
-[Link to your live portfolio (e.g., GitHub Pages URL)]
-*(Update this link after deploying your website)*
 
 ## Contact
 
 Feel free to reach out to me via:
 *   **Email**: aliussamad@gmail.com
-*   **LinkedIn**: [Your LinkedIn Profile URL]
-*   **GitHub**: [Your GitHub Profile URL] 
+*   **LinkedIn**: https://www.linkedin.com/in/ali-samad-841b11301/
+*   **GitHub**:  https://github.com/alisamad1/Face-Attendance-System-
