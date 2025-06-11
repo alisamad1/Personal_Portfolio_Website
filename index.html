@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ali Samad | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      color: #fff;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    header img {
+        width: 160px;
+        height: 200px;
+        border-radius: 12px; /* Rounded rectangle */
+        object-fit: cover;
+        object-position: top;
+        border: 3px solid #fff;
+        background-color: #ddd;
+    }
+
+
+    .intro {
+      flex: 1;
+      min-width: 200px;
+    }
+
+    .intro h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .intro p {
+      margin: 0.5rem 0;
+    }
+
+    section {
+      padding: 2rem;
+      background-color: #fff;
+      margin: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      color: #1e1e2f;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact span {
+      margin-bottom: 0.3rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #1e1e2f;
+      color: #ccc;
+    }
+
+    /* Responsive: stack items on small screens */
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .intro {
+        flex: unset;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="photo_ali.jpg" alt="Your Profile Photo" />
+    <div class="intro">
+      <h1>Ali Samad</h1>
+      <p>Final Year B.Tech Student | CSE - Data Science & Machine Learning</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Contact Information</h2>
+    <div class="contact">
+      <span><strong>Email:</strong> your.email@example.com</span>
+      <span><strong>Phone:</strong> +91-XXXXXXXXXX</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Academic Details</h2>
+    <ul>
+      <li><strong>College:</strong> Your College Name</li>
+      <li><strong>Degree:</strong> B.Tech in Computer Science and Engineering</li>
+      <li><strong>Specialization:</strong> Data Science & Machine Learning</li>
+      <li><strong>Year:</strong> Final Year (4th Year)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Certifications & Achievements</h2>
+    <ul>
+      <li>Machine Learning Certification - Coursera (2024)</li>
+      <li>Data Analysis with Python - FreeCodeCamp (2024)</li>
+      <li>Top 5% in AlgoUniversity’s DSML Camp (2025)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Student Performance Predictor:</strong> A machine learning model to predict student outcomes based on study habits and attendance.
+      </li>
+      <li>
+        <strong>Covid Data Dashboard:</strong> Built using Python, Plotly, and Dash to visualize COVID trends over time.
+      </li>
+      <li>
+        <strong>Resume Parser with NLP:</strong> Extracts key details from resumes using Spacy and Regex.
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 Ali Samad. All rights reserved.
+  </footer>
+
+</body>
+</html>
